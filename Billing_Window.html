@@ -1,0 +1,87 @@
+x<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../CSS_FILES/Billing_styles.css" />
+  <title></title>
+
+</head>
+
+<body>
+<form class="form ">
+    <label class="label-style input-manually">Item name</label>
+    <input type="text" />
+    <br />
+    <label class="label-style input-manually">Rate</label>
+    <input type="text" />
+    <br />
+    <label class="label-style input-manually">Quantity</label>
+    <input type="text" />
+    <br />
+    <label class="label-style input-manually">CGST</label>
+    <input type="text" />
+    <br />
+    <label class="label-style input-manually">IGST</label>
+    <input type="text" />
+    <br />
+    <label class="label-style input-manually">SGST</label>
+    <input type="text" />
+    <br />
+    <label class="label-style input-automatically">Amount</label>
+    <input type="text" readonly />
+    <br />
+    <label class="label-style input-automatically">Amount excluding gst</label>
+    <input type="text" readonly />
+    <br />
+    <label class="label-style input-automatically">Total GST</label>
+    <input type="text" readonly />
+    <br />
+    <button class="button add_button" type="button" name="button">Add</button>
+    <button class="button delete_button" type="button" name="button">Delete</button>
+</form>
+
+
+
+<table class="table-style">
+  <tr>
+  <th>
+    S.no
+  </th>
+  <th style="width:20rem;">
+      Item name
+  </th>
+  <th>
+      Rate
+  </th>
+  <th>
+      Quantity
+  </th>
+  <th>
+      CGST
+  </th>
+  <th>
+      IGST
+  </th>
+  <th>
+      SGST
+  </th>
+  <th>
+      Amount
+  </th>
+  <th>
+      Amount excluding GST
+  </th>
+  <th>
+    GST
+  </th>
+</tr>
+</table>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../JavascriptFiles/billing_window.js"></script>
+</body>
+
+
+</html>
